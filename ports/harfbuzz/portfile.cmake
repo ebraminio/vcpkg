@@ -1,9 +1,9 @@
 include(vcpkg_common_functions)
-set(SOURCE_PATH ${CURRENT_BUILDTREES_DIR}/src/harfbuzz-1.4.6)
+set(SOURCE_PATH ${CURRENT_BUILDTREES_DIR}/src/harfbuzz-1.6.3)
 vcpkg_download_distfile(ARCHIVE
-    URLS "https://github.com/behdad/harfbuzz/releases/download/1.4.6/harfbuzz-1.4.6.tar.bz2"
-    FILENAME "harfbuzz-1.4.6.tar.bz2"
-    SHA512 aade3902adadf3a8339ba1d05279e639da7cb53981adc64e2a2d32a5d49335a6a9782a62cdf80beca569ec8a639792bf0368c0b6ecad08f35bc85878678aa096
+    URLS "https://github.com/behdad/harfbuzz/releases/download/1.6.3/harfbuzz-1.6.3.tar.bz2"
+    FILENAME "harfbuzz-1.6.3.tar.bz2"
+    SHA512 e31eb367beb61a9399d2c78b51c225ab2b1cbd46f364f2d80d97bb422b44101a
 )
 vcpkg_extract_source_archive(${ARCHIVE})
 
