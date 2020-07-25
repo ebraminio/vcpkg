@@ -1,8 +1,8 @@
 Source: harfbuzz
-Version: 2.6.6
+Version: 2.7.0
 Description: HarfBuzz OpenType text shaping engine
-Homepage: https://github.com/behdad/harfbuzz
-Build-Depends: freetype[core], ragel, gettext (osx)
+Homepage: https://github.com/harfbuzz/harfbuzz
+Build-Depends: freetype[core], gettext (osx)
 
 Feature: graphite2
 Build-Depends: graphite2
